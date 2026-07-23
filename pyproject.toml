@@ -1,0 +1,15 @@
+[project]
+name = "ogx_studio"
+authors = [
+    { name = "Ogx Studio", email = "hello@ogxstudio.in" }
+]
+description = "Ogx Studio branding and customizations for ERPNext"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]
