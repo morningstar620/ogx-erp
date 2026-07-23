@@ -10,3 +10,7 @@ _logo_tmp/
 deploy/.env
 *.log
 node_modules/
+
+deploy/.vultr_api_key
+deploy/.env
+deploy/.secrets
